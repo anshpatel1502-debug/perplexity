@@ -1,0 +1,79 @@
+C:\1Programminng\cohort\Backend\day120-project-3-perplexity
++---Backend
+|   +---src
+|   |   +---configration
+|   |   |   \---database.js
+|   |   +---controllers
+|   |   |   +---auth.controller.js
+|   |   |   \---chat.controller.js
+|   |   +---middlewares
+|   |   |   \---auth.middlewares.js
+|   |   +---models
+|   |   |   +---Chat.models.js
+|   |   |   +---Message.models.js
+|   |   |   +---models.js
+|   |   |   \---User.models.js
+|   |   +---routes
+|   |   |   +---auth.routes.js
+|   |   |   \---chat.routes.js
+|   |   +---services
+|   |   |   +---ai.service.js
+|   |   |   +---internet.service.js
+|   |   |   \---mail.service.js
+|   |   +---sockects
+|   |   |   \---service.socket.js
+|   |   +---validators
+|   |   |   \---auth.validator.js
+|   |   \---app.js
+|   +---.env
+|   +---.gitignore
+|   +---package.json
+|   +---package-lock.json
+|   +---server.js
+|   \---vercel.json
++---Frontend
+|   +---dist
+|   |   +---assets
+|   |   |   +---index-BsDyIk38.js
+|   |   |   \---index-DWknMpfw.css
+|   |   +---index.html
+|   |   \---vite.svg
+|   +---public
+|   |   \---vite.svg
+|   +---src
+|   |   +---app
+|   |   |   +---App.jsx
+|   |   |   +---app.routes.jsx
+|   |   |   +---app.store.js
+|   |   |   \---index.css
+|   |   +---features
+|   |   |   +---auth
+|   |   |   |   +---components
+|   |   |   |   |   \---Protected.jsx
+|   |   |   |   +---hook
+|   |   |   |   |   \---useAuth.js
+|   |   |   |   +---pages
+|   |   |   |   |   +---Login.jsx
+|   |   |   |   |   \---Register.jsx
+|   |   |   |   +---services
+|   |   |   |   |   \---auth.api.js
+|   |   |   |   \---auth.slice.js
+|   |   |   \---chat
+|   |   |       +---hooks
+|   |   |       |   \---useChat.js
+|   |   |       +---pages
+|   |   |       |   \---Dashboard.jsx
+|   |   |       +---services
+|   |   |       |   +---chat.api.js
+|   |   |       |   \---chat.socket.js
+|   |   |       \---chat.slice.js
+|   |   \---main.jsx
+|   +---.env
+|   +---.gitignore
+|   +---eslint.config.js
+|   +---index.html
+|   +---package.json
+|   +---package-lock.json
+|   +---README.md
+|   \---vite.config.js
+\---full-folder-structure.txt
