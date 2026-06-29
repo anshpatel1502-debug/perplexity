@@ -5,7 +5,7 @@ let socket = null;
 export const initializeSocketConnection = () => {
   if (socket) return socket;
   
-  socket = io(import.meta.env.BACKEND_URL,{
+  socket = io(import.meta.env.VITE_BACKEND_URL,{
     withCredentials:true
   })
 
