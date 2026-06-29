@@ -1,17 +1,17 @@
 import axios from 'axios';
 
 const chatAPI = axios.create({
-  baseURL: import.meta.env.VITE_BACKEND_URL,
+  baseURL: "http://localhost:3000/",
   withCredentials: true,
 });
 
 export const sendMessage = async ({ chatId, message }) => {
-  const response = await chatAPI.post(`/message`, {
+  const response = await chatAPI.post(`/api/chats/message`, {
     chat: chatId,
     chatId,
     message,
   });
-  return response.data;
+  return response.data; 
 };
 
 export const getChats = async () => {
