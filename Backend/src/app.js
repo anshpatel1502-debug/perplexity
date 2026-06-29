@@ -12,6 +12,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(morgan("dev"));
+console.log(process.env.FRONTEND_URL);
 app.use(cors({
   origin:process.env.FRONTEND_URL,
   // origin:"http://localhost:5173",
