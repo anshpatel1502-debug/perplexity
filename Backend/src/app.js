@@ -1,5 +1,5 @@
 import express from "express";
-import coookieParser from "cookie-parser";
+import cookieParser from "cookie-parser";
 import cors from "cors"
 import morgan from "morgan";
 import authRouter from "./routes/auth.routes.js";
@@ -10,7 +10,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(coookieParser());
+app.use(cookieParser());
 app.use(morgan("dev"));
 app.use(cors({
   origin:process.env.FRONTEND_URL,
